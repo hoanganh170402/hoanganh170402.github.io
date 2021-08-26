@@ -1,0 +1,96 @@
+@charset "utf-8";
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Lucida grande", 'times new roman', Arial;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    font-size: 14px;
+}
+body
+{
+    width: 100%;
+    margin:0px auto;
+}   
+.menu
+{
+    padding-left: 15px;
+}
+.menu-list
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.menu-list-click
+{
+    list-style: none;
+    padding:15px;
+}
+.menu-list-click>a 
+{
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-list-click a:hover
+{
+    color: darkgrey;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;  
+}
+.layout-images
+{
+
+    flex-basis: 23%;
+    min-width:200px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+.layout-images:hover
+{
+    transform: scale(1.025);
+    transition: 1s;
+}
+.lightbox
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightbox-content
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.lightbox-content img
+{
+    text-align: center;
+    max-height: 800px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

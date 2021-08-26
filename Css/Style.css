@@ -1,0 +1,58 @@
+@charset "utf-8";
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Lucida grande", 'times new roman', Arial;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    font-size: 14px;
+}
+body
+{
+    width: 100%;
+    margin:0px auto;
+    background-color:  #ffffff;
+}
+.Box
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;   
+}
+#logo
+{
+    width: 200px;
+    margin: 0px;
+    padding: auto;
+}
+.Box-menu-control
+{
+    margin: 5px;
+}
+#Box-name
+{
+    font-size: 18px;
+}
+.Box-menu-control-click
+{
+    list-style: none;
+    margin: 25px;
+    clear: both;
+    text-align: center;
+}
+
+.Box-menu-control-click>a
+{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+.Box-menu-control-click>a:hover
+{
+    color: darkgrey;
+}
